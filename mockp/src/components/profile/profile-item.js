@@ -5,7 +5,7 @@ export default function(props) {
         <div className="profile-container">
 
             <div className="profile-wrapper">
-            <img src={props.img}></img>
+            <img src={props.pimg}></img>
             <h1>
                 {props.name}
             </h1>
