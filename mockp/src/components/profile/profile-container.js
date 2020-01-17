@@ -28,9 +28,20 @@ export default class ProfileContainer extends Component {
     }
     render() {
         return (
-           <div>
-               <h2>profile items</h2>
+            <div className="ww">
+           <div className="wrapper">
                {this.profileItems()}
+           </div>
+           <div  className="btnw">
+           <button>learn more</button>
+           <button>learn more</button>
+           <button>learn more</button>
+           <button>learn more</button>
+           <button>learn more</button>
+           <button>learn more</button>
+           <button>learn more</button>
+           <button>learn more</button>
+           </div>
            </div>
         )
     }
